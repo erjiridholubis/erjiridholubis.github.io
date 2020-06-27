@@ -1,0 +1,28 @@
+{
+  "title": "Erji Ridho Lubis",
+  "icon": "/img/favicon.ico",
+  "logo": "/img/logo.png",
+  "lead": [
+    "Student",
+    "Programmer",
+    "Blogger",
+    "Youtuber"
+  ],
+  "email": "erjiridholubis@gmail.com",
+  "phone": "+62 853 6646 3076",
+  "address" : "Jl. Kol. H. Djarab Sukajadi No.48 Dempo tengah Kota Pagaralam",
+  "description" : "Erji Ridho Lubis, dengan nama lengkap Nur Muhammad Erji Ridho Lubis merupakan seorang mahasiswa Universitas Sriwijaya di jurusan Sistem Komputer angkatan 2019. Sejak SMK sudah berkarir dibidang programming, lebih tepatnya sebagai Blogger dan Web Developer.",
+  "about": [
+    "Erji Ridho Lubis, dengan nama lengkap Nur Muhammad Erji Ridho Lubis merupakan seorang mahasiswa Universitas Sriwijaya di jurusan Sistem Komputer angkatan 2019. Sejak SMK sudah berkarir dibidang programming, lebih tepatnya sebagai Blogger dan Web Developer.",
+    "Memiliki hobi dibidang teknologi dan penasaran yang tinggi, sehingga menekuni berbagai bahasa pemrograman komputer sejak SMK. Pemrograman yang dikuasai ialah dibidang Web, Desktop dan juga Android (Fullstack Developer).",
+    "Selain itu, juga memiliki hobi untuk berbagi, dengan itulah hobi ini disalurkan dengan berkarir dibidang blogger untuk membagikan ilmu-ilmu yang sudah didapat.",
+    "Memiliki impian untuk berwirausaha dibidang teknologi agar dapat memajukan teknologi di Negara Indonesia."
+  ],
+  "sosmed": {
+    "whatsapp": "https://api.whatsapp.com/send?phone=082280847476",
+    "github": "https://github.com/erjiridholubis",
+    "facebook": "https://www.facebook.com/erjiridholubis.erji",
+    "instagram": "https://www.instagram.com/erjiridholubis",
+    "youtube": "https://www.youtube.com/channel/UCYDlpiuEEJbSGzWG29_Y2GQ"
+  }
+}

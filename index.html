@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="alternate" hreflang="x-default" href="https://erjiridholubis.github.io">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"/>
+
+  <title>Erji Ridho Lubis</title>
+
+  <meta name="title" id="meta_title" content="">
+  <meta name="description" id="meta_description" content="">
+  <meta name="author" id="meta_author" content="">
+  <meta name="subject" id="meta_subject" content="">
+  <!-- Open Graph data -->
+  <meta property="og:title" id="meta_og_title" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" id="meta_og_url" content="" />
+  <meta property="og:image" id="meta_og_image" content="" />
+  <meta property="og:description" id="meta_og_description" content="" />
+  <meta property="og:site_name" id="meta_og_sitename" content="" />
+  <meta property="article:published_time" content="2020-06-26 18:03:26" />
+  <meta property="article:modified_time" content="2020-06-26 20:52:54" />
+  <meta property="article:section" id="meta_og_selection" content="" />
+  <meta property="article:tag" id="meta_og_tag" content="" />
+  <meta property="og:locale" content="id_ID" />
+  <meta property="article:publisher" id="meta_og_publisher" content="" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <style media="screen">
+  .img-about {
+    margin-top: 10px;
+  }
+  @media(max-width:1024px) {
+    #about_me {
+      margin-top: 20px;
+    }
+    .img-about {
+      width: 100%;
+      margin-top: 50px;
+    }
+  }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/" id="nav-title">
+        <img src="" width="30" height="30" class="d-inline-block align-top rounded-circle logo" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home"><i class="fas fa-home"></i> Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills"><i class="fas fa-cogs"></i> Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience"><i class="fas fa-history"></i> Pengalaman</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><i class="fas fa-address-book"></i> Kontak</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="jumbotron" id="home">
+    <div class="container">
+      <div class="text-center">
+        <img src="" class="rounded-circle img-thumbnail logo" width="150">
+        <h1 class="display-4 title"></h1>
+        <h3 class="lead"></h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section class="about mb-5" id="about">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col text-center">
+          <h2>About</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <img src="" alt="" class="img-rounded pull-left logo img-about">
+        </div>
+        <div class="col-md-5 ">
+          <div class="justify-content-center text-justify" id="about_me"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="mb-5">
+  <!-- Education & Skills -->
+  <div class="container">
+    <div class="row">
+
+      <section class="education col-md-6" id="education">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col text-center">
+              <h2>Education</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center ml-5">
+            <div class="col-md-10" id="my_education"></div>
+          </div>
+        </section>
+
+        <section class="experience col-md-6" id="skills">
+          <div class="container">
+            <div class="row mb-4">
+              <div class="col text-center">
+                <h2>Skills</h2>
+              </div>
+            </div>
+            <div class="container" id="my_skills"></div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <section class="portfolio bg-light mt-5" id="experience">
+      <div class="container">
+        <div class="row pt-4 mb-4">
+          <div class="col text-center">
+            <h2>Experience</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md mb-4">
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio/1.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mb-4">
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio/2.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mb-4">
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio/3.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md mb-4">
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio/4.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md mb-4">
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio/5.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mb-4">
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio/6.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact mt-5" id="contact">
+      <div class="container">
+        <div class="row pt-4 mb-5 pb-5">
+          <div class="col text-center">
+            <h2>Contact</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="row">
+              <div class="col-md-1">
+                <i class="fas fa-map-marker-alt text-info" aria-hidden></i>
+              </div>
+              <div class="col-md-10">
+                <p id="address"> </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-1">
+                <i class="far fa-envelope text-info" aria-hidden></i>
+              </div>
+              <div class="col-md-10">
+                <p id="myemail"> </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-1">
+                <i class="fas fa-phone text-info" aria-hidden></i>
+              </div>
+              <div class="col-md-10">
+                <p id="phone"> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-7 slideanim">
+            <form method="post" id="contact_form">
+              <div class="form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="whatsapp" name="whatsapp" placeholder="Whatsapp" type="number" required>
+                </div>
+              </div>
+              <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea><br>
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button class="btn btn-outline-primary pull-right" type="button" id="send_mail" onclick="FormValidateEmail()"><i class="far fa-envelope" aria-hidden></i> Send Email</button>
+                  <button class="btn btn-outline-success pull-right" type="button" id="send_wa" onclick="FormValidateWhatsapp()"><i class="fab fa-whatsapp" aria-hidden></i> Send Whatsapp</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-dark text-white mt-5 pb-2">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <p id="footer"></p>
+            <div class="container mb-2" id="sosmed"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="/js/main.js" charset="utf-8"></script>
+  <script src="/js/education.js" charset="utf-8"></script>
+  <script src="/js/skills.js" charset="utf-8"></script>
+  <script src="/js/validationcontact.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "bootstrap" : {
+    "title" : "Bootstrap 4",
+    "rate"  : "75",
+    "icon"  : "fab fa-bootstrap",
+    "color" : "secondary"
+  },
+  "jquery" : {
+    "title" : "JQuery",
+    "rate"  : "70",
+    "icon"  : "fab fa-js",
+    "color" : "success"
+  },
+  "php" : {
+    "title" : "PHP 7",
+    "rate"  : "80",
+    "icon"  : "fab fa-php",
+    "color" : "primary"
+  },
+  "laravel" : {
+    "title" : "Laravel 7",
+    "rate"  : "80",
+    "icon"  : "fab fa-laravel",
+    "color" : "danger"
+  },
+  "codeigniter" : {
+    "title" : "CodeIgniter 3",
+    "rate"  : "80",
+    "icon"  : "fas fa-fire",
+    "color" : "danger"
+  },
+  "github" : {
+    "title" : "Git & Github",
+    "rate"  : "60",
+    "icon"  : "fab fa-github",
+    "color" : "secondary"
+  },
+  "linux" : {
+    "title" : "Linux",
+    "rate"  : "65",
+    "icon"  : "fab fa-linux",
+    "color" : "secondary"
+  }
+}
