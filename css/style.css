@@ -1,16 +1,25 @@
 body {
-    margin-top: 50px;
+  margin-top: 50px;
 }
-
 .jumbotron img {
-    width: 25%;
+  width: 25%;
 }
-
 section {
-    min-height: 420px;
+  min-height: 420px;
 }
-
 footer {
-    min-height: 50px;
-    padding-top:12px;
+  min-height: 50px;
+  padding-top:12px;
+}
+.img-about {
+  margin-top: 10px;
+}
+@media(max-width:1024px) {
+  #about_me {
+    margin-top: 20px;
+  }
+  .img-about {
+    width: 100%;
+    margin-top: 50px;
+  }
 }

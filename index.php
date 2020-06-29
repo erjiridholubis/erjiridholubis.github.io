@@ -31,20 +31,6 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   <link rel="stylesheet" href="/css/style.css">
-  <style media="screen">
-  .img-about {
-    margin-top: 10px;
-  }
-  @media(max-width:1024px) {
-    #about_me {
-      margin-top: 20px;
-    }
-    .img-about {
-      width: 100%;
-      margin-top: 50px;
-    }
-  }
-  </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -70,14 +56,16 @@
             <a class="nav-link" href="#skills"><i class="fas fa-cogs"></i> Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#experience"><i class="fas fa-history"></i> Pengalaman</a>
+            <a class="nav-link" href="#experience"><i class="fas fa-history"></i> Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact"><i class="fas fa-address-book"></i> Kontak</a>
           </li>
         </ul>
       </div>
-
     </div>
   </nav>
 
@@ -101,7 +89,7 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-md-5">
-          <img src="" alt="" class="img-rounded pull-left logo img-about">
+          <img src="" alt="" class="img-rounded rounded pull-left logo img-about">
         </div>
         <div class="col-md-5 ">
           <div class="justify-content-center text-justify" id="about_me"></div>
@@ -109,7 +97,9 @@
       </div>
     </div>
   </section>
-  <hr class="mb-5">
+
+  <hr class="m-4 mb-5">
+
   <!-- Education & Skills -->
   <div class="container">
     <div class="row">
@@ -133,19 +123,33 @@
                 <h2>Skills</h2>
               </div>
             </div>
-            <div class="container" id="my_skills"></div>
+            <div class="container">
+              <div class="row justify-content-center" id="my_skills"></div>
+            </div>
+            <!-- <div class="container" id="my_skills"></div> -->
           </div>
         </section>
 
       </div>
     </div>
-
-    <!-- Portfolio -->
-    <section class="portfolio bg-light mt-5" id="experience">
+    <hr class="m-4">
+    <section class="experience mt-5" id="experience">
       <div class="container">
         <div class="row pt-4 mb-4">
           <div class="col text-center">
             <h2>Experience</h2>
+          </div>
+        </div>
+        <div class="row" id="my_experience"></div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio bg-light mt-5" id="portfolio">
+      <div class="container">
+        <div class="row pt-4 mb-4">
+          <div class="col text-center">
+            <h2>Portfolio</h2>
           </div>
         </div>
         <div class="row">
@@ -290,6 +294,7 @@
   <script src="/js/main.js" charset="utf-8"></script>
   <script src="/js/education.js" charset="utf-8"></script>
   <script src="/js/skills.js" charset="utf-8"></script>
+  <script src="/js/experience.js" charset="utf-8"></script>
   <script src="/js/validationcontact.js" charset="utf-8"></script>
 </body>
 </html>

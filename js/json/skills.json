@@ -1,27 +1,15 @@
 {
+  "android" : {
+    "title" : "Android Native",
+    "rate"  : "50",
+    "icon"  : "fab fa-android",
+    "color" : "success"
+  },
   "bootstrap" : {
     "title" : "Bootstrap 4",
     "rate"  : "75",
     "icon"  : "fab fa-bootstrap",
     "color" : "secondary"
-  },
-  "jquery" : {
-    "title" : "JQuery",
-    "rate"  : "70",
-    "icon"  : "fab fa-js",
-    "color" : "success"
-  },
-  "php" : {
-    "title" : "PHP 7",
-    "rate"  : "80",
-    "icon"  : "fab fa-php",
-    "color" : "primary"
-  },
-  "laravel" : {
-    "title" : "Laravel 7",
-    "rate"  : "80",
-    "icon"  : "fab fa-laravel",
-    "color" : "danger"
   },
   "codeigniter" : {
     "title" : "CodeIgniter 3",
@@ -29,16 +17,82 @@
     "icon"  : "fas fa-fire",
     "color" : "danger"
   },
+  "flutter" : {
+    "title" : "Flutter",
+    "rate"  : "50",
+    "icon"  : "fas fa-angle-double-right",
+    "color" : "primary"
+  },
+  "git" : {
+    "title" : "Git",
+    "rate"  : "60",
+    "icon"  : "fab fa-gitlab",
+    "color" : "warning"
+  },
   "github" : {
-    "title" : "Git & Github",
+    "title" : "Github",
     "rate"  : "60",
     "icon"  : "fab fa-github",
     "color" : "secondary"
+  },
+  "java" : {
+    "title" : "Java",
+    "rate"  : "70",
+    "icon"  : "fas fa-coffee",
+    "color" : "success"
+  },
+  "javascript" : {
+    "title" : "Javascript",
+    "rate"  : "70",
+    "icon"  : "fab fa-js",
+    "color" : "success"
+  },
+  "jquery" : {
+    "title" : "JQuery",
+    "rate"  : "70",
+    "icon"  : "fab fa-js",
+    "color" : "success"
+  },
+  "laravel" : {
+    "title" : "Laravel 7",
+    "rate"  : "80",
+    "icon"  : "fab fa-laravel",
+    "color" : "danger"
   },
   "linux" : {
     "title" : "Linux",
     "rate"  : "65",
     "icon"  : "fab fa-linux",
     "color" : "secondary"
+  },
+  "mysql" : {
+    "title" : "MySQL",
+    "rate"  : "80",
+    "icon"  : "fas fa-database",
+    "color" : "secondary"
+  },
+  "networking" : {
+    "title" : "Networking",
+    "rate"  : "50",
+    "icon"  : "fas fa-network-wired",
+    "color" : "secondary"
+  },
+  "php" : {
+    "title" : "PHP 7",
+    "rate"  : "80",
+    "icon"  : "fab fa-php",
+    "color" : "primary"
+  },
+  "python" : {
+    "title" : "Python 3",
+    "rate"  : "80",
+    "icon"  : "fab fa-python text-info",
+    "color" : "warning"
+  },
+  "vbnet" : {
+    "title" : "VB .NET",
+    "rate"  : "50",
+    "icon"  : "fas fa-infinity",
+    "color" : "primary"
   }
 }

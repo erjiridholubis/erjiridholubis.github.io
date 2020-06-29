@@ -1,0 +1,41 @@
+[
+  {
+    "title" : "Magang PTPN 7 Pagaralam",
+    "year" : "2018",
+    "description" : "Magang di PTPN 7 Pagaralam sesuai kurikulum sekolah",
+    "job" : [
+      "Membuat rekap laporan bulanan pencapaian kerja karyawan",
+      "Membuat website company profile PT"
+    ]
+  },
+  {
+    "title" : "Lomba LKS Networking Support",
+    "year" : "2018",
+    "description" : "Lomba LSK Networking Support tingkat Provinsi",
+    "job" : [
+      "Membuat kabel LAN tipe CROSS dan STRAIGHT",
+      "Konfigurasi Server Debian 7",
+      "Konfigurasi VLAN di Cisco Packet Tracer"
+    ]
+  },
+  {
+    "title" : "Lomba LSK Web Design",
+    "year" : "2019",
+    "description" : "Lomba LSK Web Design tingkat Provinsi",
+    "job" : [
+      "Setting Wordpress",
+      "Membuat Layout dari HTML dan CSS",
+      "Membuat Backend untuk layout"
+    ]
+  },
+  {
+    "title" : "Anggota BEM Fasilkom Unsri",
+    "year" : "2020",
+    "description" : "Anggota BEM Fasilkom Unsri Devisi Teknologi Informasi",
+    "job" : [
+      "Membuat website Pendataan Mahasiswa baru Unsri",
+      "Membuat website Bankdata Unsri",
+      "Membuat website Technology Euphoria 2020 Unsri"
+    ]
+  }
+]
